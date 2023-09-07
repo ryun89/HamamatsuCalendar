@@ -11,6 +11,7 @@ struct ContentView: View {
                 Text("燃えないゴミの日")
                     .background(Color.brown)
                     .font(.title)
+                    Spacer()
             }
             CalendarView()
                 .frame(height: 400)
