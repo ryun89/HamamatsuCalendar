@@ -51,6 +51,7 @@ struct ContentView: View {
             content: content,
             trigger: trigger)
         
+        // リクエストを登録
         UNUserNotificationCenter.current().add(request)
     }
 }
