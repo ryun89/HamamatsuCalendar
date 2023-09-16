@@ -24,15 +24,15 @@ struct CalendarView: UIViewRepresentable {
         fsCalendar.appearance.titleWeekendColor = .red
         fsCalendar.appearance.titleTodayColor = .orange
         fsCalendar.appearance.weekdayTextColor = .white
+        fsCalendar.appearance.todayColor = .opaqueSeparator
+        fsCalendar.appearance.todaySelectionColor = .clear
 
         fsCalendar.calendarWeekdayView.weekdayLabels[1].backgroundColor = .red
         fsCalendar.calendarWeekdayView.weekdayLabels[2].backgroundColor = .brown
         fsCalendar.backgroundColor = .gray
-        fsCalendar.appearance.borderRadius = .pi
+        fsCalendar.appearance.borderRadius = 0.6
         fsCalendar.calendarWeekdayView.weekdayLabels[4].backgroundColor = .red
-        
-            
-        
+
         return fsCalendar
     }
     
